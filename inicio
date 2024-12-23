@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reiki Energía Solar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="ruta_al_logo_de_reiki_energia_solar" alt="Reiki Energía Solar">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#nosotros">Quiénes Somos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h1>Bienvenidos a Reiki Energía Solar</h1>
+            <p>Soluciones sostenibles para un futuro energético más limpio.</p>
+        </section>
+        <!-- Secciones adicionales -->
+    </main>
+    <footer>
+        <p>&copy; 2024 Reiki Energía Solar. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
+<style>
+/* Colores corporativos */
+:root {
+    --color-primario: #2c1d4a; /* Morado */
+    --color-secundario: #e0bd1a; /* Amarillo */
+    --color-fondo: #F5F5F5; /* Fondo claro */
+    --color-texto: #333333; /* Texto oscuro */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+header {
+    background-color: var(--color-primario);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section#inicio {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: var(--color-secundario);
+    color: var(--color-primario);
+}
+
+footer {
+    background-color: var(--color-primario);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+</style>
