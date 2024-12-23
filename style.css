@@ -4,6 +4,8 @@
     --color-secundario: #e0bd1a; /* Amarillo */
     --color-fondo: #F5F5F5; /* Fondo claro */
     --color-texto: #333333; /* Texto oscuro */
+    --color-boton: #e0bd1a; /* Color botón */
+    --color-boton-hover: #d4ac15; /* Color botón al pasar el ratón */
 }
 
 body {
@@ -57,6 +59,20 @@ section#inicio {
     padding: 50px 20px;
     background-color: var(--color-secundario);
     color: var(--color-primario);
+}
+
+.cta-button {
+    background-color: var(--color-boton);
+    color: var(--color-primario);
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: var(--color-boton-hover);
 }
 
 footer {
